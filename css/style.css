@@ -51,6 +51,8 @@ section {
   padding: 0.8rem 1.5rem;
   background-color: #FFF6E9;
   border-bottom: 2px solid #D9A441;
+  position: sticky;
+    top: 0;
 }
 
 .logo {
