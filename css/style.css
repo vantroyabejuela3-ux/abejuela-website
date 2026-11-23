@@ -1,4 +1,4 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -21,3 +21,73 @@ h1 {
   line-height: 1.1;
   margin-bottom: 1rem;
 }
+
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+
+a {
+  color: inherit;
+}
+
+section {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 4rem 1.5rem;
+}
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem 1.5rem;
+  background-color: #FFF6E9;
+  border-bottom: 2px solid #D9A441;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.3rem 0;
+}
+
+nav a:hover {
+  color: #B8574A;
+  border-bottom: 2px solid #D9A441;
+}
+
+nav a.nav-order {
+  background-color: #E8A598;
+  border: 2px solid #6B4226;
+  border-radius: 2rem;
+  padding: 0.3rem 1.1rem;
+}
+
+nav a.nav-order:hover {
+  background-color: #D9A441;
+  color: #6B4226;
+}
+
+
+
